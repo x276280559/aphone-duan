@@ -1,0 +1,23 @@
+*{
+	margin:0px;padding: 0px;	
+}
+a{text-decoration: none;}
+
+li{list-style: none;}
+
+/*清除浮动*/
+.clearfix::before,
+.clearfix::after{
+	content: " ";
+	height:0px;
+	visibility: hidden;
+	clear: both;
+	display: block;
+}
+
+/*设置盒模型*/
+input{
+	box-sizing:border-box;
+}
+
+

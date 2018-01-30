@@ -1,0 +1,115 @@
+
+.box{
+	background:#ccc;
+}
+.header{
+	width:100%;height:40px;/*background:red;*/
+	padding:3px 62px;position: fixed;
+	box-sizing: border-box;z-index: 10;
+	
+}
+.mag{
+	width:60px;height:25px;
+	background:url(img/img/sprites.png) no-repeat;
+	background-position: 1px -107px;
+	background-size: 200px;
+	position: absolute;left:0;top:0;
+	margin-top:7px;
+}
+.search-icon{
+	width:30px;height:27px;display: block;background:url(img/img/sprites.png) no-repeat;
+	background-position: -54px -103px;position: absolute;left:65px;top:4px;
+	background-size: 200px;
+}
+.search{
+	width:100%;height:34px;padding-left:30px;
+	border-radius: 25px;border:none;
+}
+.login{
+	width:60px;height:40px;
+	position: absolute;right:0px;top:0;
+	line-height:40px;text-align: center;
+}
+.login a{color:white;}
+.max_banner{
+	position: relative;
+}
+.banner{display: flex;width:400%;}
+.banner li{
+	width:100%;
+}
+.banner li img{
+	width:100%;
+}
+.yuan{
+	width:48px;height:10px;z-index: 100;position: absolute;right:5px;bottom: 5px;;
+}
+.yuan li{
+	width:10px;height:10px;border-radius: 5px;background:deepskyblue;float:left;margin-left:2px;
+}
+.nav{
+	padding-top:4px;width:100%;background:white;
+}
+
+.nav ul{
+	width:100%;
+}
+
+.nav ul li{
+	width:25%;float:left;text-align: center;margin-top:3px;
+}
+.nav ul li img{
+	width:50%;
+}
+.nav ul li a{
+	font-size:14px;color:#666;
+}
+.timer{
+	width:99%;height:200px;margin:4px auto;
+	background:white;border:1px solid #ccc;
+	box-shadow: 2px 2px 5px #ccc;
+}
+.timer .tl{
+	width:100%;height:30px;padding-top:8px;
+	float: left;/*background:red;*//*line-height: 40px;*/
+	
+}
+.timer .tl .t_log{
+	width:20px;height:30px;
+	float:left;margin:-2px 6px 0 0;
+	background:url(../img/img/seckill-icon.png) no-repeat;
+	background-size:100%;
+}
+.timer .tl p{
+	/*font-size:14px;*/float:left;
+	margin-right: 12px;color:red;
+}
+.timer .tl ul li{
+	float:left;width:20px;height:20px;
+	background:black;margin-right:2px;
+	color:white;text-align: center;
+}
+.timer .tl ul li:nth-child(3n){
+	background:transparent;
+	color:#666;
+}
+.timer .lr{
+	float:right;
+}
+.timer_ul li{
+	width:33.3333%;text-align: center;float:left;
+}
+.timer_ul li img{
+	width:54%;
+}
+.timer_ul li p:nth-child(2){
+	color:red;
+}
+.timer_ul li p:nth-child(3){
+	color:#666;text-decoration: line-through;
+}
+.timer_ul li p:nth-child(2) a {
+	display: block;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
